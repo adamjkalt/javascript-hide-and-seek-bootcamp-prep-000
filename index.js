@@ -12,7 +12,7 @@ function nestedTarget(nested){
 
 function increaseRankBy(n){
   var numbers = document.querySelectorAll(`ul.ranked-list`);
-  for (i=0; i < a.length; i++) {
+  for (let i=0; i < a.length; i++) {
   var numberString = a[i];
   var numberSolution = parseInt(numberString);
   }
