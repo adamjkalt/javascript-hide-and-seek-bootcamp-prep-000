@@ -11,9 +11,9 @@ function nestedTarget(nested){
 }
 
 function increaseRankBy(n){
-  document.querySelectorAll(`ul#ranked-list`);
-  parseInt(`ul#ranked-list`, n);
-  return document.querySelectorAll(`ul#ranked-list`);
+  document.querySelectorAll(`ul.ranked-list`);
+  parseInt(`ul.ranked-list`, n);
+  return document.querySelectorAll(`ul.ranked-list`);
 }
 
 function deepestChild(){
