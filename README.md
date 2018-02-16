@@ -1,4 +1,6 @@
-# JavaScript Hide and Seek
+document.querySelector(selector);
+
+  return document.querySelector(selector)# JavaScript Hide and Seek
 
 ## Objectives
 
