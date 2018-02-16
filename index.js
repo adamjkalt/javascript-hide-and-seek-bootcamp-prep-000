@@ -14,7 +14,7 @@ function increaseRankBy(n){
   var numbers = document.querySelectorAll(`ul.ranked-list`);
   for (let i=0; i < numbers.length; i++) {
     var numberString = numbers[i];
-  var numberSolution = parseInt(numberString);
+    var numberSolution = parseInt(numberString) + n;
   }
 }
 
