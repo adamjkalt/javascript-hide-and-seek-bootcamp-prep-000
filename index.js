@@ -16,7 +16,7 @@ function increaseRankBy(n){
   var numberString = a[i];
   var numberSolution = parseInt(numberString);
   }
-  return document.querySelectorAll(`ul.ranked-list`);
+  return numberSolution;
 }
 
 function deepestChild(){
