@@ -13,7 +13,7 @@ function nestedTarget(nested){
 function increaseRankBy(n){
   var a = document.querySelectorAll(`ul.ranked-list`);
   for (i=0; i < a.length; i++) {
-  increaseRankBy
+  a()
   parseInt(a, n);
   }
   return document.querySelectorAll(`ul.ranked-list`);
