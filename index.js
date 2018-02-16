@@ -12,6 +12,7 @@ function nestedTarget(nested){
 
 function increaseRankBy(n){
   document.querySelector(`ul#ranked-list`);
+  parseInt(`ul#ranked-list`, n);
   return document.querySelector(`ul#ranked-list`);
 }
 
